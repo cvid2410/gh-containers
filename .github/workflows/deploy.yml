@@ -12,8 +12,8 @@ jobs:
     environment: testing
     runs-on: ubuntu-latest
     env:
-      MONGODB_CONNECTION_PROTOCOL: mongodb+srv
-      MONGODB_CLUSTER_ADDRESS: cluster0.srhwrdh.mongodb.net
+      MONGODB_CONNECTION_PROTOCOL: mongodb
+      MONGODB_CLUSTER_ADDRESS: mongodb
       MONGODB_USERNAME: local
       MONGODB_PASSWORD: password
       PORT: 8080
