@@ -20,7 +20,8 @@ jobs:
     services:
       mongodb:
         image: mongo
-        env:
+        restart: always
+        environment:
           MONGO_INITDB_ROOT_USERNAME: local
           MONGO_INITDB_ROOT_PASSWORD: password
     steps:
